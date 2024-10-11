@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Beige background */
+    color: #333; /* Dark text for contrast */
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); /* Dark background for contrast */
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffcc00; /* Bright yellow */
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900; /* Orange */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Light background for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #8B4513; /* Brown color for headings */
+    border-bottom: 2px solid #8B4513; /* Brown border */
+}
+
+.project {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #8B4513; /* Brown border for projects */
+    border-radius: 5px;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.02);
+    background: rgba(255, 255, 255, 0.1); /* Light overlay on hover */
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #8B4513; /* Brown background for buttons */
+    color: #fff; /* White text */
+    text-decoration: none;
+    border-radius: 20px; /* Sleek rounded button */
+    transition: background 0.3s, transform 0.3s;
+    font-size: 14px; /* Sleek size */
+}
+
+.project-link:hover {
+    background: #5b3d25; /* Darker brown on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8); /* Dark background for footer */
+    color: #fff; /* White text */
+}
